@@ -3,3 +3,16 @@
 - Kittitat Mukdasanit (BOSS)
 - 6602041620025
 - s6602041620025@email.kmutnb.ac.th
+
+
+## Environment
+```sh
+cp env.example .env
+```
+
+## Runing a services
+### Database 
+```
+docker compose -f db.yaml up #monotoring
+docker compose -f db.yaml up -d #background daemon
+```
