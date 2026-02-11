@@ -29,3 +29,10 @@ docker compose -f admin.yaml up -d #background daemon
 docker compose -f app.yaml up #monotoring
 docker compose -f app.yaml up -d #background daemon
 ```
+
+### Running 3 services in one line (etg.Database, PG Admin, Strapi)
+
+```
+docker-compose up #monotoring
+docker-compose up -d #background daemon
+```
